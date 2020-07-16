@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
+## Telemetry Log Parser
 
-You can use the [editor on GitHub](https://github.com/rajeshkumaravel/telemetry-log-parser/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Node Script to parse telemetry log files
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+---
 
-### Markdown
+### Prerequisites
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+| Dependencies | Version |
+| :--- | ------- |
+| **Node JS** | > 8.x.x |
 
-```markdown
-Syntax highlighted code block
+### Project Setup
 
-# Header 1
-## Header 2
-### Header 3
+1. Clone project
 
-- Bulleted
-- List
+2. Navigate to **telemetry-log-parser** folder
 
-1. Numbered
-2. List
+3. Install required dependencies
 
-**Bold** and _Italic_ and `Code` text
+    > npm install
 
-[Link](url) and ![Image](src)
-```
+### Running Script
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+1. Navigate to project folder
 
-### Jekyll Themes
+   ```console
+   cd telemetry-log-parser
+   ```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rajeshkumaravel/telemetry-log-parser/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+2. Execute `parser.js` with folder path - _Folder path where file(s) are to be parsed_
 
-### Support or Contact
+3. Example - node parser.js <PATH_TO_DATA_FOLDER>
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+   ```console
+   node parser.js /user/telemetry/logs/
+   ```
+
+4. All file(s) under `/logs` will be parsed and stored under /user/telemetry/logs/output/

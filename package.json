@@ -1,0 +1,16 @@
+{
+  "name": "telemetrylog",
+  "version": "1.0.0",
+  "description": "Node Script to parse telemetry log files",
+  "main": "parser.js",
+  "devDependencies": {},
+  "scripts": {},
+  "engines": {
+    "node": ">=8.10.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "author": "RAJESH K",
+  "license": "MIT"
+}
