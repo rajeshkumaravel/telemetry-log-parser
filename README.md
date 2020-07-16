@@ -1,4 +1,4 @@
-## Telemetry Log Parser
+## [Telemetry Log Parser](https://rajeshkumaravel.github.io/telemetry-log-parser)
 
 Node Script to parse telemetry log files
 
