@@ -9,7 +9,7 @@
     "node": ">=8.10.0"
   },
   "dependencies": {
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.21"
   },
   "author": "RAJESH K",
   "license": "MIT"
